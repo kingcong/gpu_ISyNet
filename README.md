@@ -36,7 +36,7 @@ Dataset used: [ImageNet 2012](http://image-net.org/challenges/LSVRC/2012/)
 
 # [Environment Requirements](#contents)
 
-- Hardware (GPU, )
+- Hardware (GPU )
 - Framework
     - [MindSpore](https://www.mindspore.cn/install/en)
 - For more information, please check the resources below:
@@ -88,8 +88,7 @@ Dataset used: [ImageNet 2012](http://image-net.org/challenges/LSVRC/2012/)
   bash run_standalone_train_gpu.sh  [DATA_PATH] [CONFIG_PATH]
 # training on multiple GPUs
   bash run_distributed_train_gpu.sh [DATA_PATH] [CONFIG_PATH]
-# training on multiple s
-  bash run_distributed_train.sh [RANK_TABLE] [DATA_PATH] [CONFIG_PATH]
+
 ```
 
 > checkpoints will be saved in the ./train/output folder (single GPU)
